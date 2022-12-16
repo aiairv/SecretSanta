@@ -10,6 +10,7 @@ public class AdminMenu {
         UserData userData = new UserData();
         AdminData adminData = new AdminData();
         BasicMenu basicMenu = new BasicMenu();
+        UserMenu userMenu = new UserMenu();
         while (true) {
             System.out.println("Добро пожаловать в меню для админа");
             System.out.println("1 - Задать макисмальную сумму");
