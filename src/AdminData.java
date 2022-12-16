@@ -58,6 +58,6 @@ public class AdminData {
         System.out.println("Установите дату окончания игры!");
         String endGame = scan.nextLine();
         System.out.println(endGame);
-        return 0;
+        return 1;
     }
 }

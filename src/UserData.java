@@ -42,21 +42,6 @@ public class UserData {
         }
         return null;
     }
-//        if (category == 1) {
-//            return PresentCategory.ELECTRONICS;
-//        } else if (category == 2) {
-//            return PresentCategory.FOOD;
-//        } else if (category == 3) {
-//            return PresentCategory.BOOKS;
-//        } else if (category == 4) {
-//            return PresentCategory.CLOTHES;
-//        } else if (category == 5) {
-//            return PresentCategory.SURPRISE;
-//        } else if (category == 0) {
-//            UserMenu.main(userMenu);
-//        }
-//        return null;
-//    }
 
 
     public void random() {

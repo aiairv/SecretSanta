@@ -27,7 +27,7 @@ public class AdminMenu {
             } else if (command == 4) {
 //                FileReader fileReader = new FileReader("SecretSanta2.txt");
             } else if (command == 0) {
-                BasicMenu.main(basicMenu);
+                return;
             }
 
             try{
