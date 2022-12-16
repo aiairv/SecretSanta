@@ -43,6 +43,15 @@ public class BasicMenu {
                 String password = scan.next();
                 User person = new User(login, password);
                 employees.add(person);
+                for (Person user : persons) {
+                    if (user.getLogin().equals(login) && user.getPassword().equals(password)) {
+                        if (user.getRole().equals("admin")) {
+                            AdminMenu.main(adminMenu);
+                        } else if (user.getRole().equals("user")) {
+                            UserMenu.main(userMenu);
+                        }
+                    }
+                }
                 for (Person user : employees) {
                     if (user.getLogin().equals(login) && user.getPassword().equals(password)) {
                         if (user.getRole().equals("admin")) {

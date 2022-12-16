@@ -23,20 +23,40 @@ public class UserData {
                 "    5.SURPRISE");
         int category = scanner.nextInt();
         if (category == 1) {
-            return PresentCategory.ELECTRONICS;
+            System.out.println("вы выбрали электронику");
+            userMenu.main(userMenu);
         } else if (category == 2) {
-            return PresentCategory.FOOD;
+            System.out.println("вы выбрали еду");
+            userMenu.main(userMenu);
         } else if (category == 3) {
-            return PresentCategory.BOOKS;
+            System.out.println("вы выбрали книги");
+            userMenu.main(userMenu);
         } else if (category == 4) {
-            return PresentCategory.CLOTHES;
+            System.out.println("вы выбрали одежду");
+            userMenu.main(userMenu);
         } else if (category == 5) {
-            return PresentCategory.SURPRISE;
+            System.out.println("сюрприз");
+            userMenu.main(userMenu);
         } else if (category == 0) {
             UserMenu.main(userMenu);
         }
         return null;
     }
+//        if (category == 1) {
+//            return PresentCategory.ELECTRONICS;
+//        } else if (category == 2) {
+//            return PresentCategory.FOOD;
+//        } else if (category == 3) {
+//            return PresentCategory.BOOKS;
+//        } else if (category == 4) {
+//            return PresentCategory.CLOTHES;
+//        } else if (category == 5) {
+//            return PresentCategory.SURPRISE;
+//        } else if (category == 0) {
+//            UserMenu.main(userMenu);
+//        }
+//        return null;
+//    }
 
 
     public void random() {
