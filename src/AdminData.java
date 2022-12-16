@@ -1,7 +1,9 @@
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class AdminData {
     Scanner scan = new Scanner(System.in);
+    BasicMenu basicMenu = new BasicMenu();
     private String maxSum;
     private String addInstructions;
     private String gameEndDate;
@@ -54,10 +56,10 @@ public class AdminData {
         return 0;
     }
 
-    public int setDateEndOfGame(){
+    public int setDateEndOfGame() throws FileNotFoundException {
         System.out.println("Установите дату окончания игры!");
         String endGame = scan.nextLine();
-        System.out.println(endGame);
+        BasicMenu.main(basicMenu);
         return 1;
     }
 }
